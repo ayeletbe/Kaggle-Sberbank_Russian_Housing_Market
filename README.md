@@ -5,3 +5,6 @@ The aim is to predict the sale price of each property. The target variable is ca
 
 The training data is from August 2011 to June 2015, and the test set is from July 2015 to May 2016. 
 The dataset also includes information about overall conditions in Russia's economy and finance sector, so you can focus on generating accurate price forecasts for individual properties, without needing to second-guess what the business cycle will do.
+
+Data Files
+train.csv, test.csv: information about individual transactions. The rows are indexed by the "id" field, which refers to individual transactions (particular properties might appear more than once, in separate transactions). These files also include supplementary information about the local area of each property.
